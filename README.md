@@ -1,2 +1,2 @@
 # html-basics
-Getting started with the Web Development
+Getting started with the Web Development - HTML
