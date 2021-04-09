@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(128, 58, 150, 0.171);
+}
+table{
+    border: 5px solid rgba(7, 82, 70, 0.76);
+    margin-left: auto;
+    margin-right: auto;
+    border-style:groove;
+    width: 800px;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+}
+
+th{
+    padding: 15px; 
+}
+
+thead{
+    background-color: rgba(120, 39, 158, 0.616);
+}
+.codigo, .estoque, .descricao{
+    background-color: rgba(209, 26, 154, 0.274);
+}
+.preco, .produto{
+    background-color: rgba(48, 211, 219, 0.26);
+}
+caption{
+    text-align: left;
+    background-color: rgba(70, 67, 231, 0.171);
+    border: 3px solid rgba(6, 87, 49, 0.644);
+    padding: 10px;
+    font-size: 15px;
+}
+
+header{
+    background-color: lightsalmon;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dist_header{
+    margin-left: 30px;
+}

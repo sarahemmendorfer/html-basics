@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links, imagens e listas</title>
+    <meta name="author" content="Sarah">
+    <meta name="keywords" content="pokemon, pikachu">
+    <meta name="description" content="Página de listas e links do pokemon">
+    <style>
+        body{
+            background-color: rgb(171, 197, 241);
+        }
+
+        #divBusca{
+            background-color:#ffffff;
+            border:solid 2px #1e1c8b;
+            border-radius:10px;
+            width:300px;
+            height:32px;
+            }
+
+        #txtBusca{
+            float:left;
+            background-color:transparent;
+            padding-left:17px;
+            font-size:18px;
+            border:none;
+            height:32px;
+            width:191px;
+            /* retira linha em volta de buscar qdo clica */
+            outline:none; 
+            }
+
+        #btnBusca{
+            border:none;
+            float:left;
+            height:32px;
+            border-radius:0 7px 7px 0;
+            width:70px;
+            font-weight:bold;
+            background:#5F9EA0;
+            }
+
+        #divBusca img{
+        float:left;
+        margin-top: 5px;
+        
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Teinando Listas, Links e Imagens</h1>
+        <h2>Lista de Definição</h2>
+    </header>
+    <main>
+        <h3>Sobre Pokemons</h3>
+
+        <div id="divBusca">
+
+            <img src="fotos/busca.png" alt="Buscar..."/>
+          
+            <input type="text" id="txtBusca" placeholder="Buscar..."/>
+          
+            <button id="btnBusca">Buscar</button>
+          
+          </div>
+
+        <dl>
+        
+            <dt><strong>Snorlax</strong></dt>
+                <dd><p>O Snorlax não fica satisfeito a menos que coma mais de 400 kg de comida todos os dias. Quando termina de comer, adormece prontamente.</p></dd>
+                <a href="https://www.pokemon.com/br/pokedex/snorlax" title= "Saiba mais sobre o Snorlax" target="_blank"><img src="fotos/snorlax.PNG"/></a>
+            <dt><strong>Pikachu</strong></dt>
+                <dd><p>Os pikachus, que podem gerar eletricidade poderosa, têm as bochechas extremamente macias e super elásticas.</p> </dd>
+                <a href="https://www.pokemon.com/br/pokedex/pikachu" title="Saiba mais sobre o Pikachu" target="_blank"><img src="fotos/pikachu.PNG"/></a>
+        
+            <dt><strong>Flaaffy</strong></dt>
+                <dd><p>Nos lugares de seu corpo onde a lã não cresce, sua pele é de borracha e não conduz eletricidade. Esses pontos são seguros para tocar.</p></dd>
+                <a href="https://www.pokemon.com/br/pokedex/flaaffy" title="Saiva mais sobre Flaaffy" target="_blank"><img src="fotos/flaaffy.PNG"/></a>
+        </dl>
+        <h2>Lista não Ordenada</h2>
+        <h3>Algumas Regiões da Série Pokémon</h3>
+        <ul type=circle>
+            <li><a href="https://bulbapedia.bulbagarden.net/wiki/Kanto">Kanto:</a> <p>Kanto (em japonês: カントー地方, Kantō-chihō) é um país ou região fictícia, da série Pokémon. </p><img src="fotos/kanto.PNG" alt="Região de Kanto"/></li>
+            <br/>
+            <li><a href="https://bulbapedia.bulbagarden.net/wiki/Johto">Johto:</a>  <p>A região Johto (japonês: ジ ョ ウ ト 地方 Johto-chihō) é uma região do mundo Pokémon. Ele está localizado a oeste de Kanto, e conforme revelado pelo programa de rádio Sinnoh Sound, está localizado ao sul de Sinnoh.
+            </p> <img src="fotos/johto.PNG" alt="Região de Johto"/></li>
+            <br/>
+            <li><a href="https://bulbapedia.bulbagarden.net/wiki/Hoenn">Hoenn:</a> <p>A região de Hoenn (japonês: ホ ウ エ ン 地方 Hoenn-chihō) é uma região do mundo Pokémon. Ele está localizado ao sul de Sinnoh.</p> <img src="fotos/hoenn.PNG" alt="Região de Hoenn"/></li>
+            <br/>
+            <li><a href=https://bulbapedia.bulbagarden.net/wiki/Sinnoh>Sinnoh:</a> <p>A região de Sinnoh (japonês: シ ン オ ウ 地方 Sinnoh-chihō) é uma região do mundo Pokémon. Ele está localizado ao norte de Kanto, Johto, e Hoenn.</p><img src="fotos/sinnoh.PNG" alt="Região de Sinnoh"/></li>
+        </ul>
+        <h2>Lista Ordenada</h2>
+        <h3><strong>Pokémons mais fortes no Pokémon GO</strong></h3>
+        
+         <ol type="I">
+            <li><p><a href="https://www.pokemon.com/br/pokedex/mewtwo"><strong>Mewtwo</strong></a> - CP máximo de 4144.75</p>
+            <img src="fotos/mewto.PNG" alt="Foto Mewto">
+            </li>
+            <li><p><a href="https://www.pokemon.com/br/pokedex/dragonite"><strong>Dragonite</strong> </a>- CP máximo de 3500.6</p>
+            <img src="fotos/dragonite.PNG" alt="Foto Dragonite">
+            </li>
+            <li><p><a href="https://www.pokemon.com/br/pokedex/mew"><strong>Mew</strong> </a>- CP máximo de 3299.17</p>
+            <img src="fotos/mew.PNG" alt="Foto Mew">
+            </li>
+            <li><p><a href="https://www.pokemon.com/br/pokedex/moltres"><strong>Moltres</strong> </a>- CP máximo de 3240.47</p>
+            <img src="fotos/moltres.PNG" alt="Foto Moltres">
+            </li>
+            <li><p><a href="https://www.pokemon.com/br/pokedex/zapdos"><strong>Zapdos</strong></a> - CP máximo de 3114.38</p>
+            <img src="fotos/zapdos.PNG" alt="Foto Zapdos">
+            </li>
+        </ol>
+    </main>
+
+</body>
+</html>

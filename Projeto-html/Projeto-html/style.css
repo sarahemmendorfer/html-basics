@@ -1,0 +1,633 @@
+/* -----------------------------CABEÇALHO FIM------------------------------------------ */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#91B3F9;
+    color: #4548EC ;
+
+}
+
+.menu{
+    background-color: #4548EC  ;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    border: 1px solid #4548EC;  
+    border-radius: 3px 3px ;
+    font-size: 15px;
+}
+/* aqui definimos a formatação */
+.menu li {
+    border-right: 1px solid #4548EC;
+    border-radius: 3px 3px ;
+    position: relative;
+    float: left;
+    
+}
+/* aqui subimos as listas */
+
+.menu li a {
+    background:white;  
+    color:#4548EC;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 3px 3px ;
+}
+
+
+/* aqui subimos as sub listas */
+
+
+.menu li a:hover {
+
+    background: #f08080 ;
+    color: white;
+    
+}
+
+
+/* aqui sombreei os botões quando o mause esta em cima*/
+
+.menu li ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color:#4548EC;
+    display: none;
+}
+
+
+/* aqui esconde as sublistas no seu botão(item da lista) referente*/
+
+.menu li:hover ul,
+.menu li.hover ul {
+    display: block;
+}
+
+
+/* aqui apareci com as sublistas quando o mause estiver em cima */
+
+.menu li ul li {
+    border-radius: 3px 3px ;
+    border: 1px solid #4548EC;
+    display: block;
+    width: 150px;
+}
+
+
+/* aqui alinhei na vertical minha sub lista quando o mause esta posicionado */
+
+/* Abaixo COMEÇA css do submenu vertical*/
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+
+#nav ul li {
+    position: relative;
+}
+
+#nav li ul {
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+}
+
+#nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #4548EC;
+    background: white ;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 1px 1px;
+}
+
+#nav li:hover ul {
+    display: block;
+
+}
+#nav li a:hover {
+    
+    background: #f08080  ;
+    color:white;   
+}
+
+.soulcodelogo{
+    
+    width: 130px ;
+    height: 80px;
+}
+
+.tablehead {
+    position: fixed;
+    background-color: #4548EC;  
+    color: white; 
+    margin: auto; 
+    width: 100%;
+    border-radius: 10px 10px;
+}
+
+.news {
+    color: white;
+}
+/* Acima TERMINA o submenu vertical*/
+
+
+/* -----------------------------CABEÇALHO FIM------------------------------------------ */
+
+/* -----------------------------RODAPÉ COMEÇO------------------------------------------ */
+
+
+.tablesponsors{
+    margin: auto;
+    top: 0;
+    width: 80%;
+    border: 3px solid #4548EC;
+    background-color: white;
+    border-radius: 100px 100px;
+}
+
+
+.tablefoot {
+    position: fixed;
+    bottom: 0;
+    background-color: #4548EC; 
+    color: white;
+    margin: auto;  
+    width: 100%;
+    border-radius: 10px 10px;
+}
+
+.img_tnt {
+    width: 120px ;
+    height: 120px;
+
+}
+
+.img_niteo{
+    width: 180px ;
+    height: 120px;
+
+}
+.img_it{
+    width: 160px ;
+    height: 100px;
+
+}
+.img_cufa{
+    width: 110px ;
+    height: 110px;
+
+}
+.img_casa{
+    width: 150px ;
+    height: 105px;
+
+}
+.img_falcoes{
+    width: 170px ;
+    height: 112px;
+
+}
+.img_bdigital{
+    width: 190px ;
+    height: 90px;
+
+}
+.img_capacito{
+    width: 160px ;
+    height: 90px;
+
+}
+.img_5era{
+    width: 100px ;
+    height: 100px;
+
+}
+
+
+
+
+/* -----------------------------RODAPÉ FIM------------------------------------------ */
+
+/* -----------------------------PRINCIPAL COMEÇO------------------------------------------ */
+
+
+.principal{
+    
+    width: 800px;
+   margin: auto;
+}
+
+
+div#banner-principal img {
+    background-color: white;    
+    border-radius: 50px 50px;
+    width: 100%;
+}
+
+#texto-principal{
+    background-color: white;    
+    border-radius: 50px 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+.mini-banner {
+    background-color: white;    
+    border-radius: 50px 50px;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.mini-banner img {
+    width: 100%;
+    border-radius: 50px;
+}
+.titulo-mini-banner{
+    font-size: large;
+    font-weight: bold;
+
+}
+/* -----------------------------PRINCIPAL FIM------------------------------------------ */
+
+
+/* -----------------------------EQUIPE E LOCAL COMEÇO------------------------------------------ */
+
+/* CSS para a tabela de informações das componentes da equipe */
+.fundo_equipe, .fundo_contato{
+    background-color: #91B3F9;
+    color: #0c046B;
+
+
+}
+
+.tabela_equipe{
+    /* largura da tabela em 60% da página */
+    width: 60%;
+    /* cor de fundo da tabela */
+    background-color: #ffffff;
+    /* Margem a mais em torno da tabela */
+    padding: 30px;
+    /* Cantos das tabelas ficam arredondados */
+    border-radius: 30px 30px;
+    /* colocando essas duas propriedades em "auto" a tabela fica centralizada horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    /* texto justificado */
+    text-align: justify;
+}
+
+/* Estilizando o quadradinho da tabela que contém as imagens */
+.tabela_imagem{
+    /* Largura do quadradinho das imagens */
+    width: 35%;
+}
+
+/* Estilizando as fotos de perfil */
+.foto_perfil{
+    /* definindo a largura */
+    width: 200px;
+    /* definindo a altura */
+    height: 200px;
+    
+    
+}
+
+/* Estilizando o ícone do linkedin */
+.ico_linkedin{
+    /* Espaçamento em relação à lateral esquerda da tela */
+    margin-left: 480px;
+}
+
+/* Estilizando a tabela que contém as fotos e sobre da SoulCode */
+.tabela_sobre{
+    /* cor de fundo */
+    background-color: #ffffff;
+    /* espaçamento a mais em torno da tabela */
+    padding: 30px;
+    /* cantos arredondados */
+    border-radius: 30px 30px;
+    /* lergura horizontal */
+    width: 60%;
+    /* centralizada horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Estilizando as imagens sobre a SoulCode */
+.img_sobre{
+    /* largura das imagens */
+    width: 120px;
+    /* altura das imagens */
+    height: 120px;
+    /* Cantos arredondados */
+    border-radius: 15px 15px;
+}
+
+.tabela_contato{
+    background-color: #ffffff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     /* espaçamento a mais em torno da tabela */
+     padding: 30px;
+     /* cantos arredondados */
+     border-radius: 30px 30px;
+}
+
+/* Estilizando as imagens (linkedin, whats.. */
+.img_contato{
+    /* largura */
+    width: 60px;
+    /* altura */
+    height: 60px;
+    /* borda arredondada */
+    border-radius: 23px 23px;
+    padding: 9px;
+    
+
+}
+
+.foto_contato{
+    /* largura horizontal em 60% da página */
+    width: 100%;
+    /* Ainda to tentando entender mas sem ele a imagem não centraliza */
+    display: block;
+    /* centralizar a imagem horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Estilizando o botão de envio do formulário de msg */
+.botao_form_msg{
+    /* altura do botão */
+    height: 50px;
+    /* largura do botão */
+    width: 304px;
+    /* bordinha do botão */
+    border-radius:5px;
+    background-color: #4548EC;
+    /* Garante que a imagem da "mãozinha" apareça quando o leitor passar com o mouse sobre o botão. */
+    cursor:pointer;
+    /* tamanho da fonte */
+    font-size: 15px;
+    /* cor da fonte */
+    color: white;
+    /* botão sem borda */
+    border: none;
+}
+
+/*Configurções do texto */
+.sobre_soul_code{
+display: block;
+/* margem em relação à direita*/
+margin-left: 20px;
+/* texto justificado */
+text-align: justify;
+}
+
+/*  */
+#titulo_equipe{
+    /* largura */
+    width: 700px;
+    /* Margem em torno do título*/
+    padding: 8px;
+    /* Cantos das tabelas ficam arredondados */
+    border-radius: 5px 5px;
+    /* colocando essas duas propriedades em "auto" fica centralizadp horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    /* cor de fundo */
+    background-color: lightcoral;
+    /* tamanho da fonte */
+    font-size: 30px;
+}
+
+.fale_conosco{
+    /* Ainda não sei pq, mas está funcionando usar esse carinha */
+    display: block;
+}
+
+
+/* -----------------------------EQUIPE E LOCAL FIM------------------------------------------ */
+/* -----------------------------NEWSLETTER COMEÇO------------------------------------------ */
+
+.formnews {
+    font-size: 16px;
+    background-color: #4548EC;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px 10px 10px 10px;
+    border-radius: 25px;
+}
+
+.h1news {
+    color: white;
+}
+
+.inputnews {
+    width: 470px;
+    padding: 10px;
+}
+
+.enviarNews input{
+    background-color: #F08080;
+    color:white;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+
+}
+/* -----------------------------NEWSLETTER FIM------------------------------------------ */
+/* -----------------------------FORMULÁRIO COMEÇO------------------------------------------ */
+.form {
+    font-size: 16px;
+    background-color: #91B3F9;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px 10px 10px 10px;
+    border-radius: 25px;    
+}
+    
+
+.h1form {
+    color: white;
+}
+
+.textoTopo {
+    color: #4548ec;
+}    
+
+.iform {
+    width: 470px;
+    padding: 5px;
+}
+
+.anexar {
+    font-weight: bold;
+    color:#4548ec;
+}
+
+.enviarNews1 input{
+    background-color: #F08080;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color:#4548ec;
+    cursor: pointer;
+}
+
+
+/* -----------------------------FORMULÁRIO FIM------------------------------------------ */
+/* -----------------------------CURSOS COMEÇO------------------------------------------ */
+
+/* CSS para a tabela de informações das componentes da equipe */
+.tabela_equipe{
+    /* largura da tabela em 60% da página */
+    width: 60%;
+    /* cor de fundo da tabela */
+    background-color: rgb(255, 255, 255);
+    /* Margem a mais em torno da tabela */
+    padding: 20px;
+    /* Cantos das tabelas ficam arredondados */
+    border-radius: 30px 30px;
+    /* colocando essas duas propriedades em "auto" a tabela fica centralizada horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilizando o quadradinho da tabela que contém as imagens */
+.tabela_imagem{
+    /* Largura do quadradinho das imagens */
+    width: 35%;
+}
+
+/* Estilizando as fotos de perfil */
+.foto_perfil{
+    /* definindo a largura */
+    width: 200px;
+    /* definindo a altura */
+    height: 200px;
+    
+    
+}
+
+/* Estilizando o ícone do linkedin */
+.ico_linkedin{
+    /* Espaçamento em relação à lateral esquerda da tela */
+    margin-left: 480px;
+}
+
+/* Estilizando a tabela que contém as fotos e sobre da SoulCode */
+.tabela_sobre{
+    /* cor de fundo */
+    background-color: rgb(253, 253, 253);
+    /* espaçamento a mais em torno da tabela */
+    padding: 20px;
+    /* cantos arredondados */
+    border-radius: 30px 30px;
+    /* lergura horizontal */
+    width: 60%;
+    /* centralizada horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Estilizando as imagens sobre a SoulCode */
+.img_sobre{
+    /* largura das imagens */
+    width: 120px;
+    /* altura das imagens */
+    height: 120px;
+    /* Cantos arredondados */
+    border-radius: 15px 15px;
+}
+
+.tabela_contato{
+    background-color: #ffffff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     /* espaçamento a mais em torno da tabela */
+     padding: 20px;
+     /* cantos arredondados */
+     border-radius: 30px 30px;
+     /* largura horizontal */
+}
+
+/* Estilizando as imagens (linkedin, whats.. */
+.img_contato{
+    /* largura */
+    width: 60px;
+    /* altura */
+    height: 60px;
+    /* borda arredondada */
+    border-radius: 8px 8px;
+    
+}
+
+.foto_contato{
+    /* largura horizontal em 60% da página */
+    width: 60%;
+    /* Ainda to tentando entender mas sem ele a imagem não centraliza */
+    display: block;
+    /* centralizar a imagem horizontalmente */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Estilizando o botão de envio do formulário de msg */
+.botao_form_msg{
+    /* altura do botão */
+    height: 35px;
+    /* largura do botão */
+    width: 304px;
+}
+
+.cursos{
+    background-color: #91B3F9;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     /* espaçamento a mais em torno da tabela */
+     padding: 20px;
+     /* cantos arredondados */
+     border-radius: 30px 30px;
+     /* largura horizontal */
+
+}
+
+
+
+.tabelacursos{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 30px 30px;
+   
+    text-align:center;
+}
+
+/* -----------------------------CURSOS FIM------------------------------------------ */

@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calendário jQuery</title>
+    <!-- Referências à biblioteca jQuery UI link: https://jqueryui.com/datepicker/-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <script>
+        
+        $(function() {
+            // Esse script apenas chamará o método datepicker definido na jQuery UI, a partir do input calendário.
+            $( "#calendario" ).datepicker({
+                //“botão” para que o calendário seja aberto quando o usuário clicar sobre ele. O código a seguir faz com que uma imagem (no caso, salva no mesmo diretório do html, mas o leitor pode informar o caminho completo de outro arquivo de imagem) seja exibida ao lado do input.
+                showOn: "button",
+                buttonImage: "calendario.png",
+                buttonImageOnly: true,
+                //É possível também exibir uma barra com dois botões de ação no rodapé do calendário. Esses botões servem para localizar a data atual e para encerrar a seleção da data, confirmando o valor selecionado.
+                showButtonPanel:true,
+                //Permitindo selecionar outros meses e anos
+                changeMonth: true,
+                changeYear: true,
+                //Normalmente existe um espaço em branco após o último dia do mês. Porém, pode ser interessante permitir ao usuário visualizar e selecionar datas dos meses seguinte e anterior ao atual.
+                showOtherMonths: true,
+                selectOtherMonths: true,
+                //Exibir vários meses ao mesmo tempo ao abrir o calendário.
+                numberOfMonths: 2,
+                //Traduzindo o calendário (padrão-> inglês).
+                ateFormat: 'dd/mm/yy',
+                dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+                dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+                dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+                monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+                monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+                });
+            });
+
+        
+
+    </script>
+</head>
+
+<body>
+    <!--  input do tipo text que dará origem ao calendário -->
+    <p>Data: <input type="text" id="calendario" /></p>
+</body>
+
+</html>
+
+<!-- (NÃO CONSEGUI) Definindo o formato da data
+Um ponto muito importante quando se trabalha com campos de data é o formato em que esta é exibida. Para que o calendário esteja sempre adequado ao padrão utilizado na página desenvolvida, pode-se informar o formato da data através do parâmetro dateFormat.
+
+O formato é composto por letras que identificam o dia(dd para o valor numérico e DD para o nome do dia), mês (mm para o número e MM para o nome do mês) e ano (yy). A seguir definimos o formato do calendário para ano-mês-dia (yyyy-dd-MM).
+
+<script>
+
+$(function() {
+
+    $("#calendario").datepicker({dateFormat: 'yy-mm-dd'});
+
+});
+
+</script> -->

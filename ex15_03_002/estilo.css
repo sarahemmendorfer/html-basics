@@ -1,0 +1,39 @@
+body{
+    background-color:rgba(23, 31, 99, 0.226);
+}
+#sof, #mercado, #oqfazer{
+    background-color: rgba(106, 98, 207, 0.247);
+    border-radius: 30px 30px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 40px;
+    padding: 0px 100px;
+}
+
+
+
+footer, header{
+    background-color: rgba(69, 70, 65, 0.466);
+    padding: 10px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border:10px solid rgb(17, 18, 68);
+    border-radius: 15px 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+}
+aside{
+    background-color: rgba(252, 11, 211, 0.171);
+}
